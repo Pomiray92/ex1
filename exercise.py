@@ -4,27 +4,16 @@
 
 
 #Task1
-print("```bash")
 
-a = int(234)
-print(a)
-
-b = float(43.12)
-print(b)
-
-c = complex(3, +2)
-print(c)
-
-d = str("Hallo")
-print(d)
+print(int(234))
+print(float(43.12))
+print(complex(3, +2))
+print(str("Hallo"))
 
 tis_is_true = True
 print(tis_is_true)
-print("```")
-
 
 #Task2
-print("```Bash")
 
 aa = 123
 print(aa, "is type of", type(aa))
@@ -41,11 +30,7 @@ print(ab, "is type of", type(ad))
 ae = True
 print(ae, "is type of", type(ae)) 
 
-print("```")
-
 #Task3
-
-print("```Bash")
 
 city = "Fürth"
 print(isinstance(city,int))
@@ -54,13 +39,21 @@ print(isinstance(city,bool))
 print(isinstance(city,complex))
 print(isinstance(city,str))
 
-print("```")
-
 #Task4
 
-print("```Bash")
+number = 123
+print("is", number, "an instance of int", isinstance(number, int)) #check if this number "int" is
+bool1 = 43.23
+print("is", bool1, "an instance of bool?", isinstance(bool1, bool)) #check if this number "bool" is
+koordinaten = (2 - 1j)
+print("is", koordinaten, "an instance of complex?", isinstance(koordinaten, complex)) #check is this number "complex" is
+wahrheit = True
+print("is", wahrheit, "an instance of bool?", isinstance(wahrheit, bool)) #check if this value "bool" is
+text = "how are you"
+print("is", text, "an instance of float?", isinstance(text, float)) #check if this value "float" is
+
+#Task5
+# fist comment
+# block comments
 
 
-
-
-print("```")
